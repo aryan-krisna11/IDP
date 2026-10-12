@@ -1,0 +1,24 @@
+# --- Data Engineering & Serialization ---
+numpy>=1.26.0
+pandas>=2.1.0
+pyarrow>=14.0.0
+joblib>=1.3.0
+
+# --- Machine Learning & Digital Twin (Phase 2) ---
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# --- Metaheuristic Optimization (Phase 3) ---
+scipy>=1.11.0
+
+# --- Deep Learning & Reinforcement Learning (Phase 4) ---
+torch>=2.2.0
+gymnasium>=0.29.1
+stable-baselines3>=2.2.1
+
+# --- Hardware-in-the-Loop Serial Telemetry (Phase 5) ---
+pyserial>=3.5
+
+# --- Interactive EMS Dashboard & Visualization (Phase 6) ---
+streamlit>=1.32.0
+plotly>=5.19.0
