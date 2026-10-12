@@ -1,0 +1,18 @@
+# Virtual Environments
+venv/
+env/
+.env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Large Raw Datasets (Do NOT commit multi-gigabyte ASHRAE CSVs)
+data/
+*.csv
+*.parquet
+
+# VS Code / OS hidden files
+.vscode/
+.DS_Store
+Thumbs.db
