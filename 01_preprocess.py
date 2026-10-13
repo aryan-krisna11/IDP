@@ -9,7 +9,7 @@ def reduce_mem_usage(df: pd.DataFrame, verbose: bool = True) -> pd.DataFrame:
     for col in df.columns:
         col_type = df[col].dtype
         
-        # Use Pandas API type checking to safely handle StringDtype and objects
+        # Use Pandas API type checking to safely handle StringDtype and objects.
         if pd.api.types.is_integer_dtype(col_type):
             c_min = df[col].min()
             c_max = df[col].max()
