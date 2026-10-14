@@ -1,4 +1,4 @@
-# ⚡ Intelligent Building Energy Management System (BEMS)
+# Intelligent Building Energy Management System (BEMS)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/Digital_Twin-XGBoost-orange)
@@ -11,14 +11,14 @@ An end-to-end **Cyber-Physical Building Energy Optimization System** developed a
 
 ---
 
-## 👥 Project Team
-* **Siddhant Singh** — `25BAI1506`
-* **Aryan Krisna** — `25BAI1058`
-* **Anant Tripathi** — `25BAI1464`
+## Project Team
+* **Siddhant Singh**
+* **Aryan Krisna**
+* **Anant Tripathi**
 
 ---
 
-## 🎯 Problem Statement & Motivation
+## Problem Statement & Motivation
 Commercial buildings account for nearly **30–40% of global energy demand**, with Heating, Ventilation, and Air Conditioning (HVAC) and interior lighting representing the largest controllable loads. Traditional Building Management Systems (BMS) rely on static, rule-based setpoints (e.g., locking AC at $21.0^\circ\text{C}$ and lighting at $100\%$) regardless of ambient weather fluctuations or occupancy thermodynamics. 
 
 **Our Solution:** We transition building operations from static rules to **prescriptive, closed-loop AI control**:
@@ -28,7 +28,7 @@ Commercial buildings account for nearly **30–40% of global energy demand**, wi
 
 ---
 
-## 🏗️ 6-Phase System Architecture
+## 6-Phase System Architecture
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -59,7 +59,7 @@ Commercial buildings account for nearly **30–40% of global energy demand**, wi
 
 ---
 
-## 🔬 Technical Methodology
+## Technical Methodology
 
 ### Phase 1: Data Engineering (`preprocess.py`)
 * **Dataset:** ASHRAE Great Energy Predictor III (GEPIII).
@@ -91,7 +91,7 @@ Commercial buildings account for nearly **30–40% of global energy demand**, wi
 
 ---
 
-## 📊 Key Results & Benchmarks
+## Key Results & Benchmarks
 
 | Metric | Unoptimized Baseline | Genetic Algorithm (Phase 3) | PPO RL Agent (Phase 4) |
 | :--- | :---: | :---: | :---: |
@@ -104,7 +104,7 @@ Commercial buildings account for nearly **30–40% of global energy demand**, wi
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 AI-Building-Energy-Optimizer/
@@ -126,7 +126,7 @@ AI-Building-Energy-Optimizer/
 
 ---
 
-## 🔌 Hardware Pinout & Wiring (ESP32)
+## Hardware Pinout & Wiring (ESP32)
 
 | Component | Pin on Module | ESP32 GPIO / Rail | Purpose |
 | :--- | :---: | :---: | :--- |
@@ -137,7 +137,7 @@ AI-Building-Energy-Optimizer/
 
 ---
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### 1. Clone the Repository
 ```bash
@@ -164,6 +164,6 @@ python -m streamlit run app.py
 
 ---
 
-## 📜 License & Acknowledgments
+## License & Acknowledgments
 * **Dataset:** ASHRAE — *Great Energy Predictor III* (hosted on Kaggle).
 * Developed for academic evaluation under the **Innovation Design Project (IDP)** curriculum.
